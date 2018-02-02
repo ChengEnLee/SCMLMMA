@@ -1,0 +1,53 @@
+#ifndef _OPERATOR_H_
+#define _OPERATOR_H_
+#include <stdio.h>
+#include <math.h>
+
+double norm(double *x, int lda){
+
+  printf("Compute norm\n");
+  printf("lda = %d\n",lda);
+  double temp = 0;
+
+  for(int i=0;i<lda;i++){
+    temp += x[i]*x[i];
+  }
+
+  temp = sqrt(temp);
+
+  return temp;
+}
+
+double dot(double *x, double *y, int lda){
+
+  printf("Compute norm\n");
+  printf("lda = %d\n",lda);
+  double temp = 0;
+
+  for(int i=0;i<lda;i++){
+    temp += x[i]*y[i];
+  }
+
+  return temp;
+}
+
+double mv(double *A, double *x, double *y, int lda, int col){
+
+  printf("Compute matrix multiple vector\n");
+
+  for(int i=0;i<col;i++){
+    for(int j=0;j<m;j++){
+      y[i] += A[m*i+j]*x[j];
+    }
+  }
+  printf("check answer = %f\n",y[0]);
+
+}
+
+double mm(double *A, double *B, int lda){
+
+  printf("Compute matrix multiple matrix\n");
+
+}
+
+#endif
