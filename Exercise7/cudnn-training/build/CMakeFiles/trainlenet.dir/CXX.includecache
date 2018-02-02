@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/u/chengen/Hartwig/cudnn-training/cudnn-training/readubyte.cpp
+readubyte.h
+/home/u/chengen/Hartwig/cudnn-training/cudnn-training/readubyte.h
+cstdio
+-
+cstdlib
+-
+
+/home/u/chengen/Hartwig/cudnn-training/cudnn-training/readubyte.h
+cstdint
+-
+cstddef
+-
+

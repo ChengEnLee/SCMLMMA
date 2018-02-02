@@ -1,0 +1,3 @@
+/home/u/chengen/Hartwig/cudnn-training/cudnn-training/build/CMakeFiles/edit_cache.dir
+/home/u/chengen/Hartwig/cudnn-training/cudnn-training/build/CMakeFiles/trainlenet.dir
+/home/u/chengen/Hartwig/cudnn-training/cudnn-training/build/CMakeFiles/rebuild_cache.dir
